@@ -10,7 +10,14 @@ A Claude Code plugin for deploying and managing containerlab SR Linux network la
 
 ## Installation
 
-For local development, point Claude Code at the plugin directory:
+Add the marketplace and install the plugin from within Claude Code:
+
+```
+/plugin marketplace add hyposcaler/clab-plugin
+/plugin install clab@hyposcaler
+```
+
+For local development, point Claude Code at the plugin directory instead:
 
 ```
 claude --plugin-dir /path/to/clab-plugin
@@ -63,6 +70,7 @@ instructions.
 clab-plugin/
   .claude-plugin/
     plugin.json            # Plugin manifest (name, version, description)
+    marketplace.json       # Marketplace catalog for installation
   agents/
     containerlab.md        # Delegated agent definition
   skills/
