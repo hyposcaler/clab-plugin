@@ -8,9 +8,9 @@
   },
   "plugins": [
     {
-      "name": "clab",
-      "source": "./plugins/clab",
-      "description": "Deploy, inspect, and manage containerlab SR Linux network labs",
+      "name": "networklabs",
+      "source": "./plugins/networklabs",
+      "description": "Deploy, inspect, and manage virtual network labs",
       "version": "1.0.0",
       "license": "MIT"
     }

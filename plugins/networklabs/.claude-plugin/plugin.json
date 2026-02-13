@@ -1,5 +1,5 @@
 {
-  "name": "clab",
+  "name": "networklabs",
   "description": "Containerlab operations for deploying, inspecting, and managing SR Linux network labs",
   "version": "1.0.0"
 }
