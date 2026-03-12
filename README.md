@@ -13,14 +13,14 @@ Add the marketplace from within Claude Code:
 Then install any plugin by name:
 
 ```
-/plugin install <plugin-name>@hyposcaler
+/plugin install networklabs@hyposcaler
 ```
 
 ## Available plugins
 
 | Plugin | Description |
 |--------|-------------|
-| [clab](plugins/clab/) | Deploy, inspect, and manage containerlab SR Linux network labs |
+| [networklabs](plugins/networklabs/) | Deploy, inspect, and manage containerlab SR Linux network labs |
 
 ## Local development
 
@@ -37,7 +37,7 @@ claude-code-plugins/
   .claude-plugin/
     marketplace.json           # Marketplace catalog
   plugins/
-    clab/                      # Containerlab plugin
+    networklabs/               # Containerlab plugin
       ...
   README.md
 ```

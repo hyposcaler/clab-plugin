@@ -1,4 +1,4 @@
-# clab
+# networklabs
 
 A Claude Code plugin for deploying and managing containerlab SR Linux network labs.
 
@@ -12,7 +12,7 @@ A Claude Code plugin for deploying and managing containerlab SR Linux network la
 
 ```
 /plugin marketplace add hyposcaler/claude-code-plugins
-/plugin install clab@hyposcaler
+/plugin install networklabs@hyposcaler
 ```
 
 ## What it provides
@@ -59,7 +59,7 @@ instructions.
 ## Plugin structure
 
 ```
-clab/
+networklabs/
   .claude-plugin/
     plugin.json            # Plugin manifest (name, version, description)
   agents/
